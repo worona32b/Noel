@@ -1,6 +1,6 @@
 #include <iostream>
 
-#include "cli.h"
+#include "cli/cli.h"
 #include "math/vector2.h"
 
 std::string config;
