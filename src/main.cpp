@@ -1,8 +1,7 @@
 #include <iostream>
 
 #include "cli/cli.h"
-#include "math/vector2.h"
-
+#include <GLFW/glfw3.h>
 std::string config;
 
 bool initialize(int argc, char *argv[]) {
@@ -20,9 +19,4 @@ bool initialize(int argc, char *argv[]) {
   return true;
 }
 
-int main(int argc, char *argv[]) {
-
-  initialize(argc, argv);
-
-  return 0;
-}
+int start() { return 0; }

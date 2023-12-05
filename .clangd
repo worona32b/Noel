@@ -1,0 +1,2 @@
+CompileFlags:
+  Add: -I/home/guardian/.xmake/packages/g/glfw/3.3.8/aa037e96cc854680a09e144c4b5c8fe0/include
