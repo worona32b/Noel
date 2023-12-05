@@ -1,6 +1,6 @@
 # Noel Game Engine
 
-Noel is a lightweight and easy-to-use engine for creating 2D games. Developed in C++ and partially in Assembly, it provides an exceptionally simple API for beginners and includes several useful scripts to automate tasks that might be challenging for newcomers.
+Noel is a lightweight and user-friendly engine for creating 2D games. Developed in C++ and partially in Assembly, it provides an exceptionally simple API for beginners and includes several useful scripts to automate tasks that might be challenging for newcomers.
 
 ## Contents
 
@@ -10,8 +10,9 @@ Noel is a lightweight and easy-to-use engine for creating 2D games. Developed in
 4. [Scripts](#scripts)
 5. [ECS System](#ecs-system)
 6. [Interface](#interface)
-7. [Example](#example)
-8. [License](#license)
+7. [Configuration](#configuration)
+8. [Example](#example)
+9. [License](#license)
 
 ## Requirements
 
@@ -62,6 +63,10 @@ Noel includes a simple yet powerful Entity-Component-System (ECS) for organizing
 
 Noel's API is designed with an understanding of beginners' needs. It is easy to understand and use for the development of 2D games.
 
+## Configuration
+
+Configuration for the game is executed through the `config.lua` file if it exists.
+
 ## Example
 
 Here's a simple example using Noel to create a window and render a rectangle:
@@ -72,7 +77,7 @@ Here's a simple example using Noel to create a window and render a rectangle:
 int main() {
     Noel::initialize();
 
-    Noel::DrawCircle(0, 0, 30f, Noel::Color.Blue);
+    Noel::drawCircle(0, 0, 30f, Noel::Color.Blue);
 
     Noel::terminate();
     return 0;
