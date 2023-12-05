@@ -1,0 +1,13 @@
+version: 2
+updates:
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "git"
+    directory: "/"
+    schedule:
+      interval: "daily"
+    ignore:
+      - dependency-name: "glfw"
+        versions: ["3.3.8"]
