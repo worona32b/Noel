@@ -29,10 +29,7 @@ To install Noel on your device, follow these steps:
 2. Done!
 
 ```bash
-curl -fsSL https://github.com/worona32b/Noel/raw/main/setup.sh | bash
-```
-```powershell
-Invoke-WebRequest -Uri https://github.com/worona32b/Noel/raw/main/setup.ps1 -OutFile setup.ps1
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/worona32b/Noel/main/setup.sh)"
 ```
 
 ## Usage
